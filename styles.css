@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 html,
 body {
   min-width: 290px;
-  color: #4d4e53;
-  background-color: #ffffff;
-  font-family: 'Open Sans', Arial, sans-serif;
-  line-height: 1.5;
+  color: #898992;
+  background-color: #18181B;
+  font-family: 'Inter var', ui-sans-serif, system-ui, -apple-system, 'system-ui';
+  line-height: 1.2;
 }
 
 #navbar {
@@ -15,14 +17,14 @@ body {
   width: 300px;
   height: 100%;
   border-right: solid;
-  border-color: rgba(0, 22, 22, 0.4);
+  border-color: #303032;
 }
 
 header {
-  color: black;
+  color: #FFFFFF;
   margin: 10px;
   text-align: center;
-  font-size: 1.8em;
+  font-size: 1.5em;
   font-weight: thin;
 }
 
@@ -39,7 +41,7 @@ header {
 }
 
 #navbar li {
-  color: #4d4e53;
+  color: #242427;
   border-top: 1px solid;
   list-style: none;
   position: relative;
@@ -49,9 +51,13 @@ header {
 #navbar a {
   display: block;
   padding: 10px 30px;
-  color: #4d4e53;
+  color: #898992;
   text-decoration: none;
   cursor: pointer;
+}
+
+#navbar a:hover {
+  color: #31C18D;
 }
 
 #main-doc {
@@ -62,7 +68,7 @@ header {
 }
 
 section article {
-  color: #4d4e53;
+  color: #898992;
   margin: 15px;
   font-size: 0.96em;
 }
@@ -79,7 +85,8 @@ code {
   word-break: normal;
   word-wrap: normal;
   line-height: 2;
-  background-color: #f7f7f7;
+  color: #FFFFFF;;
+  background-color: #1D1D20;
   padding: 15px;
   margin: 10px;
   border-radius: 5px;
@@ -94,7 +101,7 @@ code {
   }
 
   #navbar {
-    background-color: white;
+    background-color: #18181B;
     position: absolute;
     top: 0;
     padding: 0;
